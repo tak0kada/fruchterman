@@ -29,7 +29,7 @@ inline double fr(const double x, const double k)
  * @param temp_start Upper limit of the displacement of vertex which decreases linearly for each step.
  * @param n_iter
  */
-std::vector<std::array<double, 3>> layout_with_fr_3d(const std::vector<std::array<double, 3>>& vertex,
+inline std::vector<std::array<double, 3>> layout_with_fr_3d(const std::vector<std::array<double, 3>>& vertex,
     const std::vector<std::array<std::size_t, 3>>& face, const double dist_opt,
     const double temp_start, const int n_iter)
 {
